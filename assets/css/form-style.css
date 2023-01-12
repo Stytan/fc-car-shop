@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+.container-fieldset {
+  display: flex;
+  justify-content: center;
+}
+fieldset {
+  display: flex;
+  flex-flow: column;
+  min-width: 300px;
+  padding-top: 20px;
+  background-color: darkkhaki;
+}
+legend {
+  font-size: 1.5rem;
+  position: relative;
+  top: 10px;
+}
+.container-field {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+input[type='text'],
+input[type='date'],
+input[type='email'],
+input[type='tel'],
+#address {
+  width: 160px;
+}
+#brand,
+#model {
+  width: 120px;
+}
+select {
+  font-size: 1rem;
+}
+.black {
+  color: black;
+}
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.white {
+  color: white;
+}
+.gray {
+  color: gray;
+}
+#price {
+  width: 100%;
+}
+datalist {
+  display: flex;
+  justify-content: space-between;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+.container-button input {
+  font-size: 1.3rem;
+  margin: 10px 20px;
+}
